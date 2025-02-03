@@ -1,0 +1,170 @@
+body{
+    background-color: black;
+    height: 100%;
+}
+
+img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 50%;
+}
+
+ul{
+    list-style: none;
+    margin-left: 100px;
+    
+}
+
+li{
+    display: inline-block;
+    margin-left: 30px;
+    color: white;
+    font-size: larger;
+}
+
+
+.mainbox{
+    border-radius: 10px;
+    background-color: rgb(22, 22, 22);
+    width: 30%;
+    height: 50%;
+    padding-bottom: 20px;
+    padding-right: 70px;
+    padding-top: 40px;
+    margin-left: 30%;
+    margin-top: 7%;
+
+    
+}
+
+.header{
+    color: white;
+}
+
+#fullName{
+    font-size: xx-large;
+    margin-left: 140px;
+    margin-bottom: 0px;
+}
+
+#shortBio{
+    color: white;
+    font-size: smaller;
+    margin-left: 70px;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+
+#jobTitle{
+    font-size: medium;
+    margin-left: 170px;
+    margin-top: 2px;
+    color: yellowgreen;
+}
+
+.pro{
+    color: yellowgreen;
+    margin-left: 140px;
+    font-size: small;
+}
+
+#currentLocation{
+    margin-left: 30px;
+}
+
+#currentTimeUTC{
+    color: white;
+ 
+}
+
+#tm{
+    color: white;
+    margin-left: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .mainbox {
+        width: 50%;
+        margin-left: 20%;
+    }
+    #fullName {
+        margin-left: 100px;
+    }
+    #shortBio {
+        margin-left: 40px;
+    }
+    #jobTitle {
+        margin-left: 120px;
+    }
+    .pro {
+        margin-left: 100px;
+    }
+}
+
+/* For screens with a maximum width of 480px (mobile devices) */
+@media only screen and (max-width: 480px) {
+    .mainbox {
+        width: 80%;
+        margin-left: 10%;
+        padding-right: 20px;
+    }
+    img {
+        height: 50px;
+        width: 50px;
+        margin-left: 30%;
+    }
+    #fullName {
+        font-size: x-large;
+        margin-left: 50px;
+    }
+    #shortBio {
+        font-size: x-small;
+        margin-left: 20px;
+    }
+    #jobTitle {
+        font-size: small;
+        margin-left: 60px;
+    }
+    .pro {
+        font-size: x-small;
+        margin-left: 50px;
+    }
+    ul {
+        margin-left: 20px;
+    }
+    li {
+        display: block;
+        margin-left: 0;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    .mainbox {
+        width: 90%;
+        margin-left: 5%;
+        padding-right: 10px;
+    }
+    img {
+        height: 40px;
+        width: 40px;
+        margin-left: 20%;
+    }
+    #fullName {
+        font-size: large;
+        margin-left: 30px;
+    }
+    #shortBio {
+        font-size: xx-small;
+        margin-left: 10px;
+    }
+    #jobTitle {
+        font-size: x-small;
+        margin-left: 40px;
+    }
+    .pro {
+        font-size: xx-small;
+        margin-left: 30px;
+    }
+}
